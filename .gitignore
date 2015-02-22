@@ -2,3 +2,4 @@ www/js/main.js
 www/assets
 plugins
 platforms
+.DS_Store
