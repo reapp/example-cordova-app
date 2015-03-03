@@ -18,3 +18,13 @@ To create an app like this:
 9. Make splash screens and icons:
   - splash: https://github.com/elistone/ios-splashscreen-template-v2
   - icon: http://appicontemplate.com/
+
+
+Extra reading:
+
+ - WKWebView
+   - cordova plugin add https://github.com/Telerik-Verified-Plugins/WKWebView
+   - http://stackoverflow.com/questions/25017933/cordova-how-to-remove-push-notification-on-ios
+ - statusTap (couldnt get working) https://github.com/triceam/cordova-statusTap
+ - screenshots http://stackoverflow.com/questions/25756863/full-resolution-screenshots-for-iphone-6-and-6
+ - iOS8 scroll events change http://developer.telerik.com/featured/scroll-event-change-ios-8-big-deal/
