@@ -10,12 +10,14 @@ To create an app like this:
   - org.apache.cordova.device 0.3.0 "Device"
   - org.apache.cordova.inappbrowser 0.6.0 "InAppBrowser"
   - org.apache.cordova.statusbar 0.1.10 "StatusBar
-6. In your reapp app:
-  - Build for ios: `reapp build ios`
-  - Copy assets to cordova: `rsync -av ./build/public/ ~/PATH_TO_YOUR_CORDOVA_APP/www && (cd ~/PATH_TO_YOUR_CORDOVA_APP && cordova prepare)`
-7. Open the .xcodeproj in Xcode (it's in your platforms folder)
-8. Build using xcode
-9. Make splash screens and icons:
+6. In your cordova app:
+  - `rm -r www`
+  - `ln -s ../PATH_TO_REAPP_APP/build/ios www`
+7. In your reapp app:
+  - Build for ios: `reapp build ios && (cd ~/PATH_TO_YOUR_CORDOVA_APP && cordova prepare)`
+8. Open the .xcodeproj in Xcode (it's in your platforms folder)
+9. Build using xcode
+10. Make splash screens and icons:
   - splash: https://github.com/elistone/ios-splashscreen-template-v2
   - icon: http://appicontemplate.com/
 
