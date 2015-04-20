@@ -1,7 +1,7 @@
 To create an app like this:
 
 1. Install cordova cli
-2. `cordova new appname`
+2. `cordova create appname`
 3. Adjust config.xml so it looks like ours
 4. `cordova platform add ios`
 5. Add plugins we use:
@@ -10,6 +10,7 @@ To create an app like this:
   - org.apache.cordova.device 0.3.0 "Device"
   - org.apache.cordova.inappbrowser 0.6.0 "InAppBrowser"
   - org.apache.cordova.statusbar 0.1.10 "StatusBar
+  - To add a plugin run `cordova plugin add <plugin name>`
 6. In your cordova app:
   - `rm -r www`
   - `ln -s ../PATH_TO_REAPP_APP/build/ios www`
